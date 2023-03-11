@@ -86,12 +86,10 @@ final class MovieQuizViewController: UIViewController, QuestionFactoryDelegate, 
     }
     
     private func showLoadingIndicator(){
-        //activityIndicator.isHidden = false
         activityIndicator.startAnimating()
     
     }
     private func hideLoadingIndicator(){
-        //activityIndicator.isHidden = true
         activityIndicator.stopAnimating()
     }
 
@@ -130,8 +128,7 @@ final class MovieQuizViewController: UIViewController, QuestionFactoryDelegate, 
     }
     
     private func showNetworkError(message: String) {
-        hideLoadingIndicator() // скрываем индикатор загрузки
-        
+        hideLoadingIndicator()
         let model = QuizResultsViewModel(title: "Ошибка",
                                          text: message,
                                          buttonText: "Попробовать ещё раз")

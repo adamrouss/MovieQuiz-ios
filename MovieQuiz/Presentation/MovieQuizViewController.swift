@@ -31,6 +31,7 @@ final class MovieQuizViewController: UIViewController, QuestionFactoryDelegate, 
                     generator.impactOccurred()
         showAnswerResult(isCorrect: givenAnswer == currentQuestion.correctAnswer)
         yesButtonBlocking.isEnabled = false
+        noButtonBlocking.isEnabled = false
     }
     @IBAction private func noButtonClicked(_ sender: UIButton) {
         guard let currentQuestion = currentQuestion else{
@@ -42,6 +43,7 @@ final class MovieQuizViewController: UIViewController, QuestionFactoryDelegate, 
                     generator.impactOccurred()
         showAnswerResult(isCorrect: givenAnswer == currentQuestion.correctAnswer)
         noButtonBlocking.isEnabled = false
+        yesButtonBlocking.isEnabled = false
     }
     
     // MARK: - Lifecycle

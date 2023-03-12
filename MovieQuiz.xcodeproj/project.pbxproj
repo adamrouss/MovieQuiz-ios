@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		661AC7A329BDD323001B7819 /* YS Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661AC7A129BDD323001B7819 /* YS Display-Bold.ttf */; };
+		661AC7A429BDD323001B7819 /* YS Display-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661AC7A229BDD323001B7819 /* YS Display-Medium.ttf */; };
 		6623D010298C134E003275F6 /* QuestionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6623D00F298C134E003275F6 /* QuestionFactory.swift */; };
 		6623D013298D398F003275F6 /* QuizStepViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6623D012298D398F003275F6 /* QuizStepViewModel.swift */; };
 		6623D015298D39AB003275F6 /* QuizResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6623D014298D39AB003275F6 /* QuizResultsViewModel.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		661AC7A129BDD323001B7819 /* YS Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YS Display-Bold.ttf"; sourceTree = "<group>"; };
+		661AC7A229BDD323001B7819 /* YS Display-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YS Display-Medium.ttf"; sourceTree = "<group>"; };
 		6623D00F298C134E003275F6 /* QuestionFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFactory.swift; sourceTree = "<group>"; };
 		6623D012298D398F003275F6 /* QuizStepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizStepViewModel.swift; sourceTree = "<group>"; };
 		6623D014298D39AB003275F6 /* QuizResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsViewModel.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 		8F4738332848DE46005DF65E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				661AC7A129BDD323001B7819 /* YS Display-Bold.ttf */,
+				661AC7A229BDD323001B7819 /* YS Display-Medium.ttf */,
 				666F0E492964B88300615624 /* MovieQuizFonts */,
 				AD1ABABC2831907F00B3E448 /* LaunchScreen.storyboard */,
 				AD1ABABA2831907F00B3E448 /* Assets.xcassets */,
@@ -221,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661AC7A329BDD323001B7819 /* YS Display-Bold.ttf in Resources */,
+				661AC7A429BDD323001B7819 /* YS Display-Medium.ttf in Resources */,
 				AD1ABABE2831907F00B3E448 /* LaunchScreen.storyboard in Resources */,
 				666F0E4A2964B88300615624 /* MovieQuizFonts in Resources */,
 				AD1ABABB2831907F00B3E448 /* Assets.xcassets in Resources */,

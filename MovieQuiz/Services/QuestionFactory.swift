@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct randomQuestion{
+struct RandomQuestion{
     let question: String
     let answer: Bool
 }
@@ -89,7 +89,7 @@ final class QuestionFactory: QuestionFactoryProtocol {
     }
 }
 
-private func generateQuestionWith(raiting:Float) -> randomQuestion {
+private func generateQuestionWith(raiting:Float) -> RandomQuestion {
     
     let answers = [
         "Рейтинг этого фильма меньше 8?": raiting < 8,
@@ -97,5 +97,5 @@ private func generateQuestionWith(raiting:Float) -> randomQuestion {
         "Рейтинг этого фильма меньше 9?": raiting < 9 ]
     let right = answers.randomElement()!.key
     
-    return randomQuestion(question: right, answer: answers[right]!)
+    return RandomQuestion(question: right, answer: answers[right]!)
 }

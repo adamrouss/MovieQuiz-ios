@@ -75,8 +75,6 @@ final class QuestionFactory: QuestionFactoryProtocol {
             var text = generated.question
             var correctAnswer = generated.answer
             
-            
-            
             let question = QuizQuestion(image: imageData,
                                         text: text,
                                         correctAnswer: correctAnswer)

@@ -8,17 +8,7 @@
 import UIKit
 
 
-protocol StatisticServices {
-    
-    var totalAccurancy: Double { get }
-    var gamesCount: Int { get }
-    var bestGame: GameRecord { get }
-    func store(correct count: Int, total amount:Int)
-}
-
 final class StatisticServicesImplementation: StatisticServices {
-    var totalAccuracy: Double = 0.0
-    
     
     private let userDefaults = UserDefaults.standard
     
@@ -76,4 +66,3 @@ final class StatisticServicesImplementation: StatisticServices {
         gamesCount += 1
     }
 }
-
